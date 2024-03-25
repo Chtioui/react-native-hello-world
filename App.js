@@ -1,8 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet, Image } from 'react-native';
 
-export default class App extends React.Component {
-  render() {
+export default function App() {
     return (
       <View style={styles.container}>
         <Image
@@ -14,7 +13,6 @@ export default class App extends React.Component {
         </Text>
       </View>
     );
-  }
 }
 
 const styles = StyleSheet.create({
